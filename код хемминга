@@ -9,9 +9,8 @@ def distance(x,y):
     for i in range(7):
         if x%10==y%10:
             k=k-1
-            x=x//10
-            y=y//10
-            
+        x=x//10
+        y=y//10
     return k
 cod=int(input("код= "))
 min=distance(cod,int(haming_spisok[0]))
