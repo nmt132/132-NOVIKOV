@@ -12,5 +12,8 @@ $$\overline{A \wedge B} = \bar{A} \vee \bar{B}$$
 
 $$\bar{\mathrm{E}_{1}^{2}} = \sqrt{\frac{F a^{x-1}}{(x-1)x}} + \mathrm{\alpha}_{1}^{\frac{1}{3}} +\mathrm{\beta}_{2}^{\frac{2}{3}}$$
 
+$$h_{a} = \frac{2}{a}\sqrt{p(p-a)(p-b)(p-c)}$$
+
+\left| AB \right|=\sqrt{(x_{2}-x_{1})^{2}+(y_{2}-y_{1})^{2}+(z_{2}-z_{1})^{2}}
 
 ![lagrida_latex_editor (5)](https://user-images.githubusercontent.com/114457017/200717169-7926a797-76fa-4cd4-8e6d-5313e7d74ffd.png)
