@@ -22,8 +22,8 @@ $$\left| AB \right|=\sqrt{(x_{2}-x_{1})^{2}+(y_{2}-y_{1})^{2}+(z_{2}-z_{1})^{2}}
 
 ![lagrida_latex_editor (5)](https://user-images.githubusercontent.com/114457017/200717169-7926a797-76fa-4cd4-8e6d-5313e7d74ffd.png)
 
-graph TD;
+$$graph TD;
     A-->B;
     A-->C;
     B-->D;
-    C-->D;
+    C-->D;$$
