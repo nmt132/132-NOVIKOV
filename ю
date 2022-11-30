@@ -1,0 +1,8 @@
+def f(a,b):
+    c= a+b
+    return c
+a = '2'
+b = '3'
+a = f(a,b)
+
+print(f,' {int(a)+1} ')
