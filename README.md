@@ -31,8 +31,8 @@ $$graph TD;
 ```mermaid
 flowchart LR
 
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
+A[10класс] -->|экзамен| B(11 класс)
+B --> C{егэ}
+C -->|хорошо| D[вуз]
+C -->|плохо| E[армия]
 ```
