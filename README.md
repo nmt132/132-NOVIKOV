@@ -44,4 +44,6 @@ D -->|плохо|G(армия)
 E -->|плохо|H(приключения)
 C -->|выгнали|J(пересдача)
 J -->| |C{егэ}
-```
+
+```![mermaid-diagram-2022-12-20-100352](https://user-images.githubusercontent.com/114457017/208571929-dfa71d5c-ce59-480f-b8f5-9a0c1d4a7aee.png)
+
