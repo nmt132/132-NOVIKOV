@@ -44,7 +44,6 @@ D -->|плохо|G(армия)
 E -->|плохо|H(приключения)
 C -->|выгнали|J(пересдача)
 J -->| |C{егэ}
-
-'''
+```
 
 ![pako_eNpdkE0OgjAQha_SzEoEjC1acRauvIHbbhqoSsKPgWJijBuOZOLWM8CNrCICbtrJe997beYKQRYqQCi01GobyUMuE_fMREoI-RyEsjVx3Y25fSQ2HYt8iWTa0mZupcWkfjZVfa8fTUXX1jDkfwnsMp1E2Qpt2j3JFx_M-xbN2NzCrqT1PDb0fj8YJgzGe4r2DaOsoSj_FfxbHjUpc](https://user-images.githubusercontent.com/114457017/208572312-7608f8b1-6282-479c-9afa-a5316b127df6.png)
