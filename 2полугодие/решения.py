@@ -46,4 +46,27 @@ def f15:
     if all((x%2==0)<=(x%3!=0) or (x+a>=100) for x in range(1,100)):
         print(a)
         break
+def f23:
+  from itertools import product
+  def f(x,y,z):
+      k= 0
+      for i in range(2,z):
+          b=product('12',repeat=i)
+          for n in b:
+              if(x==10 and n.count('2')>1):
+                continue
+              a=x
+              for l in n:
+                  if l=='1':
+                      a+=1
+                  else :
+                      a*=2
+                  if a==17:
+                      break
+              if a==y:
+                 k+=1
+
+      return(k)  
+  print(f(1,10,10))
+  print(f(10,35,25))
 
