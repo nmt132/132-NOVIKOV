@@ -79,3 +79,19 @@ def f223:
     return f(x+1,y) + f(x*2,y)
   print(f(1,10)*f(10,35))
 
+def f161:
+  a = 1
+  b = 1
+  for i in range (1,2024):
+      a=a*i
+  for i in range (1,2021):
+      b=b*i
+  print(a/b)
+ def162:
+  import sys 
+  sys.setrecursionlimit(50000)
+  def f(n):
+      if n==1: return f(n)-1
+      elif n>1: return n*f(n-1)
+    
+  print(f(2023)/f(2020))
