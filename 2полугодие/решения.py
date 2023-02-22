@@ -96,20 +96,20 @@ def f161:
     
   print(f(2023)/f(2020))
 def f17:
-  with open('17.txt') as f:
-    a=[int(x) for x in (f)]
-  count=0
-  for i in range (len (a)-1):
-      if abs (a[i]%10==3 and abs (a[i+1]%10!=3)) or (abs (a[i])%10!=3 and abs(a[i+1])%10==3):
-          count+=1
-  print(count)
-  sp=[]
-  sp2=[]
-  for i in a:
-      if i%10==3:
-          sp.append(i)
-      maxi= max(sp)**2
-      if a[i]**2 +a[i+1]**2>=maxi:
-          count+=1
-          sp2.append()
-      print(count,max(sp2))
+ 
+with open('17.txt') as f:
+    a=[int(x)for x in f]
+    c=list(map(abs,a))
+    count=0
+    sp=[]
+    for i in range(len(a)-1):
+        if abs(a[i])%10==4:
+            sp.append(a[i])
+    maxi=max(sp)**2
+    sp2=[]
+    for i in range(len(c)-1):
+        if ((c[i]%10==4 and c[i+1]%10!=4 ) or (c[i]%10!=4 and c[i+1]%10==4)) and (c[i]**2+c[i+1]**2)>=maxi:
+            count+=1
+            sp2.append(c[i]**2+c[i+1]**2)
+    print(count)
+    print(min(sp2))
