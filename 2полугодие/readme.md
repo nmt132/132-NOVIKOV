@@ -40,3 +40,38 @@
    2. Воспроизвести алгоритм задачи
    3. Расставить сами точки внутри контура
    4. Вручную посчитать точки (жирность точек не влияет на подсчет)
+
+
+1)print(a)
+2)for i n range(a):
+3)if a==b:
+4)a= int(input())
+5)a=b
+6)s=[]
+7)def f():
+8)a = str(b)
+9)a=int(b)
+10)s.count
+11)s.index
+12) from itertools import product
+13)s.split()
+14)s.append()
+15)s.join(a)
+16)break
+17)a=product()
+18)continue
+19)return(a)
+20)sys.setrecursionlimit()
+21)list
+22)map
+23)len(s)
+24)max(s)
+25)min(s)
+26)s.sort
+27)s.pop()
+28)abs(a)
+29)with open('') as f:
+30)s.replace('','')
+31)s.readline()
+32)t.goto()
+33)
