@@ -113,3 +113,14 @@ with open('17.txt') as f:
             sp2.append(c[i]**2+c[i+1]**2)
     print(count)
     print(min(sp2))
+ def f26:
+  with open ('26.txt') as f:
+    s=[int(x) for x in f]
+    s.pop(0)
+    s.sort(reverse=True)
+    k,mini = 1,s[0]
+    for i in range (1,len(s)):
+        if s[i]+3<=mini:
+            mini =s[i]
+            k+=1
+    print(k,mini)
