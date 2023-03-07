@@ -1,3 +1,10 @@
+def f2():
+  for x  in range(2):
+    for y in range(2):
+        for z in range(2):
+            for w in range(2):
+                if(not(y<=x)or(z<=w)or not(z))== False:
+                    print(x,y,z,w)
 def f8():
   count=0
   for a in range (1,8):
